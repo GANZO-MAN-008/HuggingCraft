@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Fix git ownership issue first
-git config --global --add safe.directory /HuggingCraft
+cd /HuggingCraft
+git config --add safe.directory /HuggingCraft
 
 ngrok update
 ngrok config add-authtoken $NGROK_TOKEN
