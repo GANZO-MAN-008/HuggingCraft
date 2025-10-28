@@ -1,0 +1,7 @@
+[user]
+	email = bot@huggingcraft.com
+	name = HuggingCraft Bot
+[safe]
+	directory = *
+[credential]
+	helper = store
