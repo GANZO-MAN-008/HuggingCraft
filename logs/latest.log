@@ -1,104 +1,12 @@
-[15:46:55] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Debian-1deb13u1; Debian null) on Linux 6.12.40-64.114.amzn2023.x86_64 (amd64)
-[15:46:55] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) for Minecraft 1.21.8
-[15:46:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:46:56] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[15:47:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:47:05] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Network is unreachable
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.58.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.58.jar:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.net.SocketException: Network is unreachable
-	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
-	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
-	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1302) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
-	... 9 more
-[15:47:09] [ServerMain/INFO]: Loaded 1407 recipes
-[15:47:09] [ServerMain/INFO]: Loaded 1520 advancements
-[15:47:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:47:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 814.6ms
-[15:47:10] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[15:47:10] [Server thread/INFO]: Loading properties
-[15:47:10] [Server thread/INFO]: This server is running Purpur version 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[15:47:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:47:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:47:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:47:12] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:47:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:47:13] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
-[15:47:13] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
-[15:47:13] [Server thread/INFO]: Default game type: SURVIVAL
-[15:47:13] [Server thread/INFO]: Generating keypair
-[15:47:14] [Server thread/INFO]: Starting Minecraft server on *:7860
-[15:47:14] [Server thread/INFO]: Using epoll channel type
-[15:47:14] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:47:14] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:47:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:47:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:47:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:47:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:47:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:47:14] [Server thread/INFO]: Preparing level "world"
-[15:47:14] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
-[15:47:14] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
-[15:47:14] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
-[15:47:14] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
-[15:47:14] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
-[15:47:14] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
-[15:47:15] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
-[15:47:15] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
-[15:47:15] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
-[15:47:15] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
-[15:47:15] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
-[15:47:15] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
-[15:47:15] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
-[15:47:15] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
-[15:47:15] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
-[15:47:15] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
-[15:47:15] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
-[15:47:15] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
-[15:47:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:47:15] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:16] [Server thread/INFO]: Preparing spawn area: 2%
-[15:47:17] [Server thread/INFO]: Preparing spawn area: 38%
-[15:47:17] [Server thread/INFO]: Preparing spawn area: 38%
-[15:47:17] [Server thread/INFO]: Time elapsed: 1652 ms
-[15:47:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:47:17] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:17] [Server thread/INFO]: Time elapsed: 438 ms
-[15:47:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:47:17] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:17] [Server thread/INFO]: Time elapsed: 181 ms
-[15:47:18] [Server thread/INFO]: [spark] Starting background profiler...
-[15:47:18] [Server thread/INFO]: Done preparing level "world" (4.168s)
-[15:47:18] [Server thread/INFO]: Running delayed init tasks
-[15:47:18] [Server thread/INFO]: Done (24.492s)! For help, type "help"
-[15:52:11] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+[17:47:01] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Debian-1deb13u1; Debian null) on Linux 6.12.40-64.114.amzn2023.x86_64 (amd64)
+[17:47:01] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) for Minecraft 1.21.8
+[17:47:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:47:02] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[17:47:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:47:16] [ServerMain/INFO]: Loaded 1407 recipes
+[17:47:16] [ServerMain/INFO]: Loaded 1520 advancements
+[17:47:16] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:47:17] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
 com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
 	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
@@ -131,7 +39,65 @@ Caused by: java.net.SocketTimeoutException: Connect timed out
 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
 	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
 	... 9 more
-[16:02:16] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+[17:47:18] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,178.7ms
+[17:47:18] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[17:47:18] [Server thread/INFO]: Loading properties
+[17:47:18] [Server thread/INFO]: This server is running Purpur version 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[17:47:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:47:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:47:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:47:21] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:47:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[17:47:21] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
+[17:47:21] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[17:47:22] [Server thread/INFO]: Default game type: SURVIVAL
+[17:47:22] [Server thread/INFO]: Generating keypair
+[17:47:22] [Server thread/INFO]: Starting Minecraft server on *:7860
+[17:47:22] [Server thread/INFO]: Using epoll channel type
+[17:47:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:47:22] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[17:47:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:47:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:47:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:47:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:47:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:47:22] [Server thread/INFO]: Preparing level "world"
+[17:47:23] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
+[17:47:23] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[17:47:23] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
+[17:47:23] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
+[17:47:23] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
+[17:47:23] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
+[17:47:23] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
+[17:47:23] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[17:47:24] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
+[17:47:24] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
+[17:47:24] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
+[17:47:24] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
+[17:47:24] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
+[17:47:24] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[17:47:24] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
+[17:47:24] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
+[17:47:24] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
+[17:47:24] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
+[17:47:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:47:24] [Server thread/INFO]: Preparing spawn area: 0%
+[17:47:25] [Server thread/INFO]: Preparing spawn area: 2%
+[17:47:25] [Server thread/INFO]: Preparing spawn area: 38%
+[17:47:25] [Server thread/INFO]: Preparing spawn area: 38%
+[17:47:25] [Server thread/INFO]: Time elapsed: 1560 ms
+[17:47:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:47:25] [Server thread/INFO]: Preparing spawn area: 0%
+[17:47:26] [Server thread/INFO]: Preparing spawn area: 12%
+[17:47:26] [Server thread/INFO]: Time elapsed: 631 ms
+[17:47:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:47:26] [Server thread/INFO]: Preparing spawn area: 0%
+[17:47:26] [Server thread/INFO]: Time elapsed: 145 ms
+[17:47:27] [Server thread/INFO]: [spark] Starting background profiler...
+[17:47:27] [Server thread/INFO]: Done preparing level "world" (4.500s)
+[17:47:27] [Server thread/INFO]: Running delayed init tasks
+[17:47:27] [Server thread/INFO]: Done (27.396s)! For help, type "help"
+[17:52:23] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
 com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
 	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
@@ -164,42 +130,7 @@ Caused by: java.net.SocketTimeoutException: Connect timed out
 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
 	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
 	... 9 more
-[16:22:16] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Network is unreachable
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.58.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.58.jar:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.net.SocketException: Network is unreachable
-	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
-	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
-	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1302) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
-	... 9 more
-[17:02:21] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+[18:02:28] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
 com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
 	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
@@ -232,35 +163,100 @@ Caused by: java.net.SocketTimeoutException: Connect timed out
 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
 	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
 	... 9 more
-[17:46:48] [Server thread/INFO]: Stopping server
-[17:46:48] [Server thread/INFO]: Saving players
-[17:46:48] [Server thread/INFO]: Saving worlds
-[17:46:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:46:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:46:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:46:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world' in 0.02s
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[17:46:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[17:46:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[17:46:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[17:46:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:46:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:46:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:46:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:46:49] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[17:46:49] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[17:46:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[17:46:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[18:22:33] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.58.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.58.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1302) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+[19:02:33] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.58.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.58.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1302) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+[19:46:54] [Server thread/INFO]: Stopping server
+[19:46:54] [Server thread/INFO]: Saving players
+[19:46:54] [Server thread/INFO]: Saving worlds
+[19:46:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[19:46:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[19:46:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[19:46:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[19:46:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:46:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:46:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:46:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:46:54] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[19:46:54] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[19:46:54] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[19:46:54] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
