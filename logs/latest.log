@@ -1,97 +1,97 @@
-[05:47:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Debian-1deb13u1; Debian null) on Linux 6.12.40-64.114.amzn2023.x86_64 (amd64)
-[05:47:33] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) for Minecraft 1.21.8
-[05:47:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[05:47:34] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[05:47:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:47:44] [ServerMain/INFO]: Loaded 1407 recipes
-[05:47:44] [ServerMain/INFO]: Loaded 1520 advancements
-[05:47:44] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[05:47:45] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 495.2ms
-[05:47:45] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[05:47:45] [Server thread/INFO]: Loading properties
-[05:47:45] [Server thread/INFO]: This server is running Purpur version 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[05:47:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[05:47:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:47:45] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:47:47] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[05:47:47] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[05:47:47] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
-[05:47:47] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
-[05:47:48] [Server thread/INFO]: Default game type: SURVIVAL
-[05:47:48] [Server thread/INFO]: Generating keypair
-[05:47:48] [Server thread/INFO]: Starting Minecraft server on *:7860
-[05:47:48] [Server thread/INFO]: Using epoll channel type
-[05:47:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:47:48] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[05:47:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:47:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:47:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:47:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:47:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:47:48] [Server thread/INFO]: Preparing level "world"
-[05:47:49] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
-[05:47:49] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
-[05:47:49] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
-[05:47:49] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
-[05:47:49] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
-[05:47:49] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
-[05:47:49] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
-[05:47:49] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
-[05:47:49] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
-[05:47:49] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
-[05:47:49] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
-[05:47:49] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
-[05:47:50] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
-[05:47:50] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
-[05:47:50] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
-[05:47:50] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
-[05:47:50] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
-[05:47:50] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
-[05:47:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:47:50] [Server thread/INFO]: Preparing spawn area: 0%
-[05:47:50] [Server thread/INFO]: Preparing spawn area: 4%
-[05:47:51] [Server thread/INFO]: Preparing spawn area: 32%
-[05:47:51] [Server thread/INFO]: Preparing spawn area: 32%
-[05:47:51] [Server thread/INFO]: Time elapsed: 1619 ms
-[05:47:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:47:51] [Server thread/INFO]: Preparing spawn area: 0%
-[05:47:52] [Server thread/INFO]: Time elapsed: 492 ms
-[05:47:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:47:52] [Server thread/INFO]: Preparing spawn area: 0%
-[05:47:52] [Server thread/INFO]: Time elapsed: 212 ms
-[05:47:52] [Server thread/INFO]: [spark] Starting background profiler...
-[05:47:53] [Server thread/INFO]: Done preparing level "world" (4.129s)
-[05:47:53] [Server thread/INFO]: Running delayed init tasks
-[05:47:53] [Server thread/INFO]: Done (20.613s)! For help, type "help"
-[07:47:27] [Server thread/INFO]: Stopping server
-[07:47:27] [Server thread/INFO]: Saving players
-[07:47:28] [Server thread/INFO]: Saving worlds
-[07:47:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world' in 0.02s
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[07:47:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[07:47:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[07:47:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[07:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:47:28] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[07:47:28] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[07:47:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[07:47:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:47:39] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Debian-1deb13u1; Debian null) on Linux 6.12.40-64.114.amzn2023.x86_64 (amd64)
+[07:47:39] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) for Minecraft 1.21.8
+[07:47:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:47:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[07:47:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:47:49] [ServerMain/INFO]: Loaded 1407 recipes
+[07:47:49] [ServerMain/INFO]: Loaded 1520 advancements
+[07:47:49] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[07:47:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 470.3ms
+[07:47:50] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[07:47:50] [Server thread/INFO]: Loading properties
+[07:47:50] [Server thread/INFO]: This server is running Purpur version 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[07:47:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:47:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:47:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:47:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:47:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[07:47:52] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
+[07:47:52] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[07:47:53] [Server thread/INFO]: Default game type: SURVIVAL
+[07:47:53] [Server thread/INFO]: Generating keypair
+[07:47:53] [Server thread/INFO]: Starting Minecraft server on *:7860
+[07:47:53] [Server thread/INFO]: Using epoll channel type
+[07:47:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:47:53] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:47:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:47:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:47:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:47:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:47:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:47:53] [Server thread/INFO]: Preparing level "world"
+[07:47:53] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
+[07:47:53] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[07:47:53] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
+[07:47:53] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
+[07:47:53] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
+[07:47:53] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
+[07:47:54] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
+[07:47:54] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[07:47:54] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
+[07:47:54] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
+[07:47:54] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
+[07:47:54] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
+[07:47:54] [Server thread/ERROR]: [MapSerializer] Could not deserialize key grass into class net.minecraft.world.item.Item at [entities, spawning, alt-item-despawn-rate, items]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:item] (Stable)] with key minecraft:grass
+[07:47:54] [Server thread/ERROR]: [MapSerializer] Could not deserialize key potion into net.minecraft.world.entity.EntityType<?> at [chunks, entity-per-chunk-save-limit]: Missing value in Registry[ResourceKey[minecraft:root / minecraft:entity_type] (Stable)] with key minecraft:potion
+[07:47:54] [Server thread/ERROR]: Unknown value for `blocks.bed.explosion-effect`! Using default of `BLOCK`
+[07:47:54] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.baseless.explosion-effect`! Using default of `BLOCK`
+[07:47:54] [Server thread/ERROR]: Unknown value for `blocks.end-crystal.base.explosion-effect`! Using default of `BLOCK`
+[07:47:54] [Server thread/ERROR]: Unknown value for `blocks.respawn_anchor.explosion-effect`! Using default of `BLOCK`
+[07:47:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:47:55] [Server thread/INFO]: Preparing spawn area: 0%
+[07:47:55] [Server thread/INFO]: Preparing spawn area: 10%
+[07:47:56] [Server thread/INFO]: Preparing spawn area: 38%
+[07:47:56] [Server thread/INFO]: Preparing spawn area: 38%
+[07:47:56] [Server thread/INFO]: Time elapsed: 1688 ms
+[07:47:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:47:56] [Server thread/INFO]: Preparing spawn area: 0%
+[07:47:57] [Server thread/INFO]: Time elapsed: 494 ms
+[07:47:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:47:57] [Server thread/INFO]: Preparing spawn area: 0%
+[07:47:57] [Server thread/INFO]: Time elapsed: 190 ms
+[07:47:57] [Server thread/INFO]: [spark] Starting background profiler...
+[07:47:57] [Server thread/INFO]: Done preparing level "world" (4.131s)
+[07:47:57] [Server thread/INFO]: Running delayed init tasks
+[07:47:57] [Server thread/INFO]: Done (19.503s)! For help, type "help"
+[09:47:32] [Server thread/INFO]: Stopping server
+[09:47:32] [Server thread/INFO]: Saving players
+[09:47:33] [Server thread/INFO]: Saving worlds
+[09:47:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[09:47:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[09:47:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[09:47:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[09:47:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:47:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:47:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:47:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:47:33] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[09:47:33] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[09:47:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[09:47:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
